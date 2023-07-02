@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*
+Beige (#DDD0C8), dark grey (#323232)*/
+body {
+    background-color: #DDD0C8;
+    color: #323232;
+    font-family: 'Poppins', sans-serif;
+}
+div.left h2{
+    color: rgb(32, 33, 32);
+}
+
+header{
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    margin-top: -80px;
+    background-color: rgb(182, 132, 132);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(33, 34, 33);
+
+}
+
+nav ul li a:hover {
+
+    color: rgb(255, 255, 255);
+    
+
+}
+
+main hr {
+    border: 2px solid rgb(135, 87, 84);
+    
+    height: 1.2px;
+    margin: 48px 40px;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+    height: 700px;
+}
+
+.firstsection>div {
+    width: 43%
+}
+
+.leftsection {
+ 
+    font-size: 3rem;
+
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(205, 146, 136);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(194, 140, 135);
+}
+/*SKILLS*/
+
+#skills{
+    height: 700px;
+  
+    
+}
+#skills  > h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.skillsandcerts{
+    float: left;
+    width: 50% ;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.education{
+    height: 300px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #bd8282;
+  
+}
+
+.footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 123px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 12px ;
+    padding-bottom: 10px;
+}
+/*
+.projects{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 66px;
+    height: 600px;
+}*/
+/*for reference*/
+
+#projectSection{
+    display: flex;
+    justify-content:left;
+    height: 600px;
+    
+}
+.projects{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+#projects{
+    align-items: center;
+}
+.education{
+    height: 700px;
+}
+.education > h2{
+    font-size: 2.5rem;
+    
+}
+.edusection{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    height: 200px;
+}
+.education > h2{
+    text-align: center;
+}
+#headingProjects{
+    text-align: center;
+    font-size: 3rem;
+}
+.contactSection{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    height: 200px;
+}
+.contactSection>span>a{
+    text-decoration: none;
+    color: rgb(33, 34, 33);
+}
+.contactSection > span > a:hover{
+    color: white;
+    text-decoration-thickness: from-front;
+}
+#about{
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+}
+#about > h2{
+    font-size: 3rem;
+}
+#about>p{
+    font-size: x-large;
+}
