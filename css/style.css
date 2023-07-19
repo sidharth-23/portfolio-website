@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: antiquewhite;
+    /* scroll-behavior: smooth; */
+}
+
+
+nav{
+    background-color: rgb(109, 96, 96);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    /* background-color: lightgreen; */
+    height: 50px;
+}
+.left h1{
+    font-size: 40px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(213, 204, 204);
+}
+nav ul li a:hover{
+    color: antiquewhite;
+}
+
+.firstSection{
+    display: flex;
+    align-items:center;
+    justify-content:left;
+   height: 650px;
+   background: -webkit-linear-gradient(#f2eded, #aeadad);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+#element{
+    color: rgb(208, 201, 199);
+    
+}
+.leftSection{
+    width: 50%;
+    /* text-align: center; */
+    margin-left: 40px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.rightSection{
+    width: 50%;
+}
+.secondSection{
+    /* background-color: lightcyan; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    background: -webkit-linear-gradient(#f2eded, #928f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ .skill p{
+    width: 50vw;
+}
+.skill{
+    /* justify-content: space-around; */
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+
+}
+#skill{
+    text-align: center;
+    
+}
+
+#skill h2{
+    font-size: 60px;
+}
+#projects{
+    text-align: center;
+    font-size: 40px;
+
+
+    
+}
+.project{
+    width: 60vw;
+}
+.thirdSection{
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 50px 0;
+    background: -webkit-linear-gradient(#f2eded, #474343);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project{
+    margin: 0 20px;
+}
+.project h1{
+    text-align: center;
+}
+.project li{
+    list-style: disc;
+}
+#about{
+    text-align: center;
+    font-size: 40px;
+
+}
+.fourthSection{
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background: -webkit-linear-gradient(#f2eded, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#education{
+    text-align: center;
+    font-size: 30px;
+
+}
+#contact{
+    text-align: center;
+    font-size: 30px;
+
+}
+main{
+    background-image: linear-gradient(180deg, rgb(109, 96, 96), rgb(0, 0, 0));
+}
+.education h1{
+    font-size: 16px;
+}
+.contact h1{
+    font-size: 16px;
+}
+
+
+#marks{
+    color: rgb(67, 61, 61);
+}
+
+.footer{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    align-items: center;
+    height: 150px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(178, 169, 169);
+}
+footer ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+ .footer-rights{
+    text-align: center;
+    color: rgb(165, 165, 165);
+    padding-top: 12px ;
+    padding-bottom: 10px;
+    background-color: rgb(27, 27, 27);
+}
+.sub-headings{
+    color: rgb(220, 220, 220);
+        font-size: 60px;
+        background: -webkit-linear-gradient(#f2eded, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+

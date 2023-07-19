@@ -1,0 +1,68 @@
+@media screen and (max-width: 900px) {
+    nav .left h1{
+    font-size: 20px;
+    /* display: block; */
+
+    }
+    
+    .right ul{
+        /* align-items: end; */
+    }
+
+
+
+    .rightSection{
+        display: none;
+        width: 0%;
+    }
+    .leftSection{
+        font-size: 30px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .fourthSection{
+        display: block;
+    }
+    .education{
+        padding: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .secondSection{
+        display: block;
+        margin: 0;
+    }
+    .skill{
+        display: block;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        padding: 40px;
+    }
+    .skill p{
+        width: 100%;
+    }
+    #projects{
+        margin-top: 92px;
+    }
+
+  }
+  @media screen and (max-width: 380px) {
+    nav{
+        display: block;
+    }
+    .left{
+        text-align: center;
+      
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .right{
+        text-align: center;
+    }
+
+  }
